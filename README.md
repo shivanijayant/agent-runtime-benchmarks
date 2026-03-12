@@ -63,7 +63,7 @@ python e2b_runner/run_suite.py
 ```
 
 ### AWS Bedrock AgentCore Testing
-> **Note: Requires AWS CLI credentials configured locally with AdministratorAccess (or strictly scoped Bedrock/IAM/S3 policies).
+> **Note:** Requires AWS CLI credentials configured locally with AdministratorAccess (or strictly scoped Bedrock/IAM/S3 policies).
 
 ```bash
 cd agentcore_runner
