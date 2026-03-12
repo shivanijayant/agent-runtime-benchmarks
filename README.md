@@ -51,6 +51,7 @@ When the `02_stress_test.py` script attempted to consume 1GB of memory:
 │   └── transactions.csv    # Sample dataset for baseline test
 ├── .gitignore
 └── README.md
+```
 
 ## How to Run
 
