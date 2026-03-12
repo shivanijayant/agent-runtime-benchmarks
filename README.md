@@ -60,6 +60,7 @@ When the `02_stress_test.py` script attempted to consume 1GB of memory:
 
 ```bash
 python e2b_runner/run_suite.py
+```
 
 ### AWS Bedrock AgentCore Testing
 > **Note: Requires AWS CLI credentials configured locally with AdministratorAccess (or strictly scoped Bedrock/IAM/S3 policies).
@@ -71,3 +72,4 @@ agentcore invoke '{"test": "baseline"}'
 agentcore invoke '{"test": "stress"}'
 agentcore invoke '{"test": "state_write"}'
 agentcore invoke '{"test": "state_read"}'
+```
