@@ -4,7 +4,7 @@ Generating code with an LLM is a solved problem. Safely executing that untrusted
 
 This repository contains a head-to-head benchmarking suite designed to test how modern cloud environments handle the unpredictable nature of AI agent workloads. It compares two fundamentally different architectures: **E2B** (Firecracker microVMs) and **AWS Bedrock AgentCore** (Serverless execution).
 
-## 🏗️ The Architectures Tested
+## The Architectures Tested
 
 1. **E2B Sandbox (Code-First):** Dynamically provisioned, isolated Linux microVMs that behave like a standard OS.
 2. **AWS Bedrock AgentCore (Infrastructure-First):** Fully managed, serverless compute environments triggered via API invocation.
@@ -51,6 +51,7 @@ When the `02_stress_test.py` script attempted to consume 1GB of memory:
 │   └── transactions.csv    # Sample dataset for baseline test
 ├── .gitignore
 └── README.md
+'''
 
 How to Run
 E2B Testing
